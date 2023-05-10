@@ -1,0 +1,61 @@
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    // .cta__block
+
+    &__block {
+        border-radius: 20px;
+        background-color: #58BEBF;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        color: #fff;
+    }
+
+    // .cta__img
+
+    &__img {
+        margin-top: 60px;
+        padding-top:25px;
+        padding-right:25px;
+        background: white;
+        border-radius: 0 20px 0 0;
+    }
+
+    // .cta__text
+
+    &__text {
+        width: 555px;
+        padding-left: 95px;
+        padding-right: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+
+        background: 
+        url(./../../img/cta/Oval-buttom.svg) bottom left -186px no-repeat,
+        url(./../../img/cta/oval-top-right.svg) right top no-repeat;
+        
+        p{
+            width: 320px;
+        }
+    }
+
+    // .cta__title
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    // .cta__buttons-row
+
+    &__buttons-row {
+        margin-top: 30px;
+        display: flex;
+        column-gap: 20px;
+    }
+}
+
